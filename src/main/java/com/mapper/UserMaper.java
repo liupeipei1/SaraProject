@@ -1,0 +1,12 @@
+package com.mapper;
+
+import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
+
+@Mapper
+public interface UserMaper {
+    List<User>  getUser(String name);
+
+
+}
